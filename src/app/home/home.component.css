@@ -2,10 +2,7 @@ h1{
 	text-align: center;
 	font-family: "Lucida Console", Monospace;
 }
-#bg{text-align: center;}
-#bg img {
- margin-top: 80px;
-}
+
 .wrapper{
 	margin: auto;
 	width: 80%;
