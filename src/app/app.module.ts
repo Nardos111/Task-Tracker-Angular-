@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ButtonComponent } from './button/button.component';
 import { CardComponent } from './card/card.component';
+import { AlertModule } from 'ngx-bootstrap/alert' 
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { CardComponent } from './card/card.component';
     CardComponent
   ],
   imports: [
+    AlertModule.forRoot(),
     BrowserModule,
     AppRoutingModule
   ],
